@@ -24,6 +24,9 @@ public interface List<T> {
    */
   void addBefore(T data);
 
+  /**
+   * 
+   */
   void advance();
 
   T getCurrent();
