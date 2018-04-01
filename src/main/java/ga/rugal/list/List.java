@@ -13,6 +13,9 @@ public interface List<T> {
    */
   void addAfter(T data);
 
+  /**
+   * 
+   */
   void addAll(LinkedList<T> another);
 
   /**
